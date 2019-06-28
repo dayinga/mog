@@ -1,0 +1,30 @@
+/* 面包屑导航 */
+.bread{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    height: 33px;
+    width: 100%;
+}
+.bread-item{
+    float: right;
+    color: black;
+    font-size: 13px;
+}
+.bread-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #6c757d;
+    content: "|";
+}
+
+
+
