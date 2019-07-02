@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.font_small {
+    font-size: 0.8rem;
+}
+
+.text-hei {
+    color: black;
+}
+
+.top {
+    width: 1708px;
+    margin: 0 auto;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+    padding-left: 0.5rem;
+    padding-right: 0.55rem;
+}
+
+
+.top_height {
+    height: 40px;
+    border: 1px solid rgb(209, 208, 208);
+    margin-bottom: auto;
+
+}
+
+
+.logo img {
+    width: 130px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.Search {
+    margin: 30px 0px auto 300px;
+}
+
+.Search input {
+    width: 600px;
+    height: 45px;
+    vertical-align: middle;
+}
+
+.Search img {
+    height: 45px;
+
+}
+
+.Memu {
+    margin: 0px 0px 0px 50px;
+}
+
+.Memu div {
+    float: left;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.Memu a {
+    display: block;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.left1,
+.left2,
+.center1,
+.center2,
+.center3,
+.right1,
+.right2 {
+    width: 238px;
+    height: 2000px;
+    float: left;
+    margin: 3px;
+ 
+
+}
+
+.center {
+    width: 732px;
+    height: 2000px;
+    float: left;
+    margin-top: 3px;
+}
+
+.carousel {
+    background: rgb(241, 241, 203);
+    width: 726px;
+    height: 500px;
+    margin: 3px;
+}
+.menubar{
+    background: rgb(194, 194, 193);
+    width: 726px;
+    height: 300px;
+    margin: 3px;
+}
+.fall{
+    background: rgb(236, 236, 233);
+    width: 230px;
+    height: 270px;
+    margin: 4px;
+}
+
+
